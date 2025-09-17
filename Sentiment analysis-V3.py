@@ -10,7 +10,7 @@ def split_words(sentence):
     return words
 
 # ---------------------------------------------------------------
-# Function to load AFINN dictionary from file (credits to Jasper)
+# Function to load AFINN dictionary from file (credits to Jasper haha)
 # ---------------------------------------------------------------
 def load_afinn_dict(filepath="C:/Users/Syalinah/OneDrive/Documents/SIT/AFINN-en-165.txt"):
     afinn = {}
@@ -24,7 +24,7 @@ def load_afinn_dict(filepath="C:/Users/Syalinah/OneDrive/Documents/SIT/AFINN-en-
     return afinn
 
 # ------------------------------------------------------------------------------------
-# Function to calculate sentiment score of each words in a sentence(credits to Jasper)
+# Function to calculate sentiment score of each words in a sentence(credits to Jasper haha)
 # ------------------------------------------------------------------------------------
 
 def sentiment_score(sentence, afinn):
