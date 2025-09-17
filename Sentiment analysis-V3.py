@@ -93,7 +93,7 @@ if __name__=='__main__':
         print("\nSentence Scores:")
         n=1
         for sentenceLs in sentence_scores:
-            print(n,".",sentenceLs[0], " Score:", sentenceLs[1])
+            print(n,".",sentenceLs[0], ". Score:", sentenceLs[1])
             n+=1
 
         # Final Verdict for the whole paragraph
@@ -125,14 +125,14 @@ if __name__=='__main__':
 
         print("\nMost Positive Sentence:")
         if most_positive:
-            print("'" + most_positive[0] + "' Score:", most_positive[1])
+            print("'" + most_positive[0] + "'. Score:", most_positive[1])
         else:
             print("No positive sentences found.")
 
         print("\nMost Negative Sentence:")
         if most_negative:
-            print("'" + most_negative[0] + "' Score:", most_negative[1]) 
+            print("'" + most_negative[0] + "'. Score:", most_negative[1]) 
         else:
-            print("No negative sentences found.")
+            print("No negative sentences found.\n")
 
 
